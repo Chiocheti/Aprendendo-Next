@@ -8,9 +8,9 @@ import Main_navbar from '../Components/main_navbar'
 export default function Home() {
   return (
     <div>
-      <head>
+      <Head>
         <title> BorderLands Wiki </title>
-      </head>
+      </Head>
       <Main_navbar/>
       <h1> Borderlands </h1>
     </div>
