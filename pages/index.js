@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/index_main.module.css'
 import Link from 'next/link'
 
 import Main_navbar from '../Components/main_navbar'
@@ -8,11 +8,12 @@ import Main_navbar from '../Components/main_navbar'
 export default function Home() {
   return (
     <div>
-      <head>
+      <Head>
         <title> BorderLands Wiki </title>
-      </head>
+      </Head>
       <Main_navbar/>
-      <h1> Borderlands </h1>
+      <h1 className={styles.fundo}> Borderlands 3</h1>
+      <Image src={'/images/borderlands.jpg'} width="1920px" height="1080px" />
     </div>
   )
 }

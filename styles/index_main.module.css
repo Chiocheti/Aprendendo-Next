@@ -1,0 +1,9 @@
+.fundo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url('../public/images/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}

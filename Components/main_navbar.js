@@ -7,10 +7,10 @@ export default function Main_navbar(){
             <Link href={'/'}>
                 <a href=""> Inicio </a>
             </Link>
-            <Link href={'../Fabricantes'}> 
+            <Link href={'/Fabricantes'}> 
                 <a href=""> Fabricantes </a>
             </Link>
-            <Link href={'../Personagens'}>
+            <Link href={'/Personagens'}>
                 <a href=""> Personagens </a>
             </Link>
         </div>
